@@ -1,0 +1,10 @@
+.leftAlign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.leftAlign2{
+    display: flex;
+    flex-direction: column;
+}

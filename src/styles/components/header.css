@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.header h1{
+    padding: 0px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.categories h4{
+    margin: 36px 8px 0 8px;
+}
+
+.personal{
+    margin-left: 26rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.personal img{
+    margin: 36px 8px 0 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

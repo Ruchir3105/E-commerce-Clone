@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    margin: 0px;
+}
+
+h1{
+    padding: 2rem;
+}
+
+.openingimg img{
+    margin: 0px;
+    height: 70vh;
+    width: 100vw;
+}
+
+.trending{
+    margin: 0px;
+    width: 100vw;
+}
+
+.trending img{
+    width: 50vw;
+}
+
+.body{
+    padding: 0px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 100vw;
+}
+
+.merchandise{
+    height: 48vh;
+    margin: 0;
+    padding: 0 8rem;
+    /* background-color: red; */
+}
+
+.slick-slide > div{
+    margin: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.merchcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.merchcard img{
+    height: 44vh;
+    padding: 0;
+}
+
+.categoriesdiv{
+    height: 80vh;
+    /* background-color: green; */
+}
+
+.slick-slide > div{
+    margin: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.categorycard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorycard img{
+    height: 80vh;
+    padding: 0;
+}
+
+.newin{
+    height: 64vh;
+    padding: 4rem 16rem;
+    /* background-color: blue; */
+}
+
+.newincard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newincard img{
+    height: 48vh;
+}
+
+.newincard p{
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: grey;
+}
+
+.newincard h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.newindetails{
+    padding: 2rem 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.details{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping, .delivery, .madeinIndia{
+    margin: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping img, .delivery img, .madeinIndia img{
+    height: 10vh;
+    padding: 0.6rem 0;
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); */
+    opacity: 0.2;
+}
+
+.shipping h2, .delivery h2, .madeinIndia h2{
+    padding: 1.2rem 0;
+    color: rgb(82, 78, 78);
+}
